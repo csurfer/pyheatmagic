@@ -51,7 +51,17 @@ Usage
     # To save the heatmap as a file
     %%heat -o file.png
 
+Buy the developer a cup of coffee !
+-----------------------------------
+
+If you found the utility helpful you can buy the developer a cup of coffee using
+
+|Donate|
+
 .. _py-heat: https://github.com/csurfer/pyheat
+
+.. |Donate| image:: https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-34px.png
+   :target: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3BSBW7D45C4YN&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 
 .. |Thanks| image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
    :target: https://saythanks.io/to/csurfer
