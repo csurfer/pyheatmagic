@@ -1,7 +1,7 @@
 heat
 ====
 
-|pypiv| |pyv| |Licence|
+|pypiv| |pyv| |Licence| |Thanks|
 
 IPython magic command to profile and view your python code as a heat map
 using `py-heat`_.
@@ -52,6 +52,9 @@ Usage
     %%heat -o file.png
 
 .. _py-heat: https://github.com/csurfer/pyheat
+
+.. |Thanks| image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+   :target: https://saythanks.io/to/csurfer
 
 .. |Demo| image:: http://i.imgur.com/IUtasPH.gif
 
