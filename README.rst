@@ -67,7 +67,7 @@ Pull requests are most welcome.
 Buy the developer a cup of coffee!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you found the utility helpful you can buy the developer a cup of coffee using
+If you found the utility helpful you can buy me a cup of coffee using
 
 |Donate|
 
