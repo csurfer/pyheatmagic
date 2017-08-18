@@ -34,7 +34,7 @@ Directly from the repository
     python pyheatmagic/setup.py install
 
 Load Extension in IPython
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
 
