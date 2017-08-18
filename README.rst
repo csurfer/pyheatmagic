@@ -3,7 +3,7 @@ heat
 
 |pypiv| |pyv| |Licence|
 
-IPython magic command to view your profiled program as a heatmap
+IPython magic command to profile and view your python code as a heat map
 using `py-heat`_.
 
 |Demo|
