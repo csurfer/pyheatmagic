@@ -33,6 +33,12 @@ Directly from the repository
     git clone https://github.com/csurfer/pyheatmagic.git
     python pyheatmagic/setup.py install
 
+Load Extension in IPython
+-------------------------
+
+.. code:: python
+
+    %load_ext heat
 
 Usage
 -----
@@ -44,7 +50,6 @@ Usage
 
     # To save the heatmap as a file
     %%heat -o file.png
-    %%heat --out file.png
 
 .. _py-heat: https://github.com/csurfer/pyheat
 
