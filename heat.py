@@ -57,7 +57,7 @@ class PyHeatMagic(Magics):
 
         tmp_file = 'ipython_cell_input.py'
         with open(tmp_file, 'wb') as f:
-            f.write(cell)
+            f.write(cell.encode())
 
         pyheat = PyHeat(tmp_file)
         pyheat.create_heatmap()
