@@ -5,7 +5,7 @@
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/csurfer/pyheatmagic/master/LICENSE)
 [![Thanks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/csurfer)
 
-IPython magic command to profile and view your python code as a heat map using [py-heat](https://pypi.python.org/pypi/py-heat).
+IPython magic command to profile and view your python code as a heat map using [py-heat](https://github.com/csurfer/pyheat).
 
 ## Demo
 
