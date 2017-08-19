@@ -11,6 +11,9 @@ Demo
 
 |Demo|
 
+In case the demo was too fast, here is a `snapshot`_ of the last step of the
+demo for deeper contemplation :)
+
 What is the magic command?
 --------------------------
 
@@ -77,6 +80,8 @@ If you found the utility helpful you can buy me a cup of coffee using
 
 
 .. _py-heat: https://github.com/csurfer/pyheat
+
+.. _snapshot: http://i.imgur.com/isxRNV0.png
 
 .. _issue tracker: https://github.com/csurfer/pyheatmagic/issues
 
