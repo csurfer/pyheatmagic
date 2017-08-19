@@ -6,6 +6,9 @@ heat
 IPython magic command to profile and view your python code as a heat map
 using `py-heat`_.
 
+Demo
+----
+
 |Demo|
 
 What is the magic command?
