@@ -17,7 +17,7 @@ setup(
     name='py-heat-magic',
 
     # Details
-    version='0.0.1',
+    version='0.0.2',
     description='py-heat as IPython magic',
     long_description=long_description,
 
