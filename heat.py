@@ -28,7 +28,7 @@ import os
 from IPython.core import magic_arguments
 from IPython.core.magic import Magics, cell_magic, magics_class
 from pyheat import PyHeat
-
+from tempfile import mkstemp
 
 @magics_class
 class PyHeatMagic(Magics):
@@ -55,7 +55,7 @@ class PyHeatMagic(Magics):
         if filename is not None:
             filename = os.path.expanduser(args.out)
 
-        tmp_file = 'ipython_cell_input.py'
+        _, tmp_file = mkstemp()
         with open(tmp_file, 'wb') as f:
             f.write(cell.encode())
 
@@ -63,7 +63,8 @@ class PyHeatMagic(Magics):
         pyheat.create_heatmap()
         pyheat.show_heatmap(output_file=filename)
         pyheat.close_heatmap()
-
+        
+        os.remove(tmp_file)
 
 def load_ipython_extension(ipython):
     ipython.register_magics(PyHeatMagic)
