@@ -24,11 +24,12 @@ __license__ = 'MIT'
 __copyright__ = 'Copyright 2017 Vishwas B Sharma'
 
 import os
+from tempfile import mkstemp
 
 from IPython.core import magic_arguments
 from IPython.core.magic import Magics, cell_magic, magics_class
 from pyheat import PyHeat
-from tempfile import mkstemp
+
 
 @magics_class
 class PyHeatMagic(Magics):
@@ -63,8 +64,9 @@ class PyHeatMagic(Magics):
         pyheat.create_heatmap()
         pyheat.show_heatmap(output_file=filename)
         pyheat.close_heatmap()
-        
+
         os.remove(tmp_file)
+
 
 def load_ipython_extension(ipython):
     ipython.register_magics(PyHeatMagic)
