@@ -16,12 +16,12 @@ To have heatmap exported as a image file.
 :license: MIT, see LICENSE for more details.
 """
 
-__title__ = "heat"
-__version__ = "0.0.2"
-__author__ = "Vishwas B Sharma"
-__author_email__ = "sharma.vishwas88@gmail.com"
-__license__ = "MIT"
-__copyright__ = "Copyright 2017 Vishwas B Sharma"
+__title__ = 'heat'
+__version__ = '0.0.2'
+__author__ = 'Vishwas B Sharma'
+__author_email__ = 'sharma.vishwas88@gmail.com'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2017 Vishwas B Sharma'
 
 import os
 from tempfile import mkstemp
@@ -37,9 +37,7 @@ class PyHeatMagic(Magics):
     within IPython."""
 
     @magic_arguments.magic_arguments()
-    @magic_arguments.argument(
-        "-o", "--out", default=None, help="Save the heatmap to given file"
-    )
+    @magic_arguments.argument('-o', '--out', default=None, help='Save the heatmap to given file')
     @cell_magic
     def heat(self, line, cell):
         """Method to profile the python code in the ipython cell and display it
@@ -54,7 +52,7 @@ class PyHeatMagic(Magics):
             filename = os.path.expanduser(args.out)
 
         _, tmp_file = mkstemp()
-        with open(tmp_file, "wb") as f:
+        with open(tmp_file, 'wb') as f:
             f.write(cell.encode())
 
         pyheat = PyHeat(tmp_file)
