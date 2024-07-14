@@ -51,7 +51,8 @@ class PyHeatMagic(Magics):
         if filename is not None:
             filename = os.path.expanduser(args.out)
 
-        _, tmp_file = mkstemp()
+        fd, tmp_file = mkstemp()
+        os.close(fd)
         with open(tmp_file, 'wb') as f:
             f.write(cell.encode())
 
